@@ -6,8 +6,7 @@ import { Home } from '../Components/Home'
 function World() {
   return (
     <>
-        <OrbitControls/>
-        {/* <Room/> */}
+        <OrbitControls/>        
         <Home/>
     </>
   )
