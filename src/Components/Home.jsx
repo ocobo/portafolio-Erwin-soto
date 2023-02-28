@@ -33,7 +33,7 @@ export function Home(props) {
   const { actions } = useAnimations(animations, group);
   const dispatch=useDispatch()
   const [hovered, setHovered] = useState(false)
-  const abaout=useSelector((state=>state.counter.cam))
+  const abaout=useSelector((state=>state.counter.travel))
   
   useFrame((state) => {
     // if(rot){
@@ -1392,19 +1392,22 @@ export function Home(props) {
             castShadow
             receiveShadow
             geometry={nodes.Cube001_1.geometry}
-            material={ new THREE.MeshBasicMaterial({
+            material={abaout ? new THREE.MeshBasicMaterial({color: 0x00000}) :new THREE.MeshBasicMaterial({
             map:  VideoTextures
-                    })}
+                    })  }
           >
-          <Html scale={0.03} rotation={[0, 0, 0]} position={[0, -0.5,2]} transform occlude>
-          <div className="annotation4">
-          <div className="BackAno" style={{ fontSize: '4.5em'}} onClick={()=>{dispatch(chTravel2())}}  onPointerOver={() => {setHovered(true)}}
-          onPointerOut={() => setHovered(false)}>
-            Back <span className="letter" style={{ fontSize: '1.5em', color: "#FFFFFF" }} ></span>
-          </div>
-            <AboutPage/>
-          </div>
-        </Html>
+            {
+              abaout ?  <Html scale={0.03} rotation={[0, 0, 0]} position={[0, -0.5,2]} transform occlude>
+              <div className="annotation4">
+              <div className="BackAno" style={{ fontSize: '4.5em'}} onClick={()=>{dispatch(chTravel2())}}  onPointerOver={() => {setHovered(true)}}
+              onPointerOut={() => setHovered(false)}>
+                Back <span className="letter" style={{ fontSize: '1.5em', color: "#FFFFFF" }} ></span>
+              </div>
+                <AboutPage/>
+              </div>
+            </Html>: <></>
+            }
+         
           </mesh>
         </group>
         <group
