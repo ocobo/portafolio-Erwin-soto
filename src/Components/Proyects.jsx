@@ -162,7 +162,7 @@ function Proyects() {
     <div className='Back' id='Back' onClick={()=>{document.getElementById("BackProyec").style.zIndex = "100"
       setVis(false),setFeatures({learn:"Choose a option to get started"})}}>
       <div className='intercard2'>
-      <p className='GoB' id='GoB' ><img src='/src/assets/flecha-hacia-la-izquierda-en-un-circulo.png' className='flecha'></img>  Go Back</p>
+      <p className='GoB' id='GoB' ><img src='/flecha-hacia-la-izquierda-en-un-circulo.png' className='flecha'></img>  Go Back</p>
       </div>
     </div>
     <div className='conteInfo' id='conteInfo'>
