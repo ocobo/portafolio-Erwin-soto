@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shantell Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 html, body, #root{
   width: 100%;
   height: 100%;
@@ -386,4 +389,315 @@ button:hover {
 }
 .annotation{
   cursor: pointer;
+}
+.lata1{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  font-family: 'Shantell Sans', sans-serif;
+}
+.Conten{
+  left: -410px;
+  position: relative;
+  width: 810px;
+  background: #08d088;
+  height: 860px;
+  top: -430px;
+  border-radius: 24px;
+}
+.card1{
+  position: relative;
+  background: #91f9d4;
+  width: 150px;
+  height: 230px;
+  border-radius: 15px;
+  left: 5%;
+  top: 10%;
+  cursor: pointer;
+}
+.card2{
+  position: absolute;
+  background: #91f9d4;
+  width: 150px;
+  height: 230px;
+  border-radius: 15px;
+  left: 28%;
+  top: 10%;
+  cursor: pointer;
+}
+.card3{
+  position: absolute;
+  background: #91f9d4;
+  width: 150px;
+  height: 230px;
+  border-radius: 15px;
+  left: 51%;
+  top: 10%;
+  cursor: pointer;
+}
+.card4{
+  position: absolute;
+  background: #91f9d4;
+  width: 150px;
+  height: 230px;
+  border-radius: 15px;
+  left: 75%;
+  top: 10%;
+  cursor: pointer;
+}
+.card5{
+  position: absolute;
+  background: #91f9d4;
+  width: 150px;
+  height: 230px;
+  border-radius: 15px;
+  left: 5%;
+  top: 43%;
+  cursor: pointer;
+}
+.card6{
+  position: absolute;
+  background: #91f9d4;
+  width: 150px;
+  height: 230px;
+  border-radius: 15px;
+  left: 28%;
+  top: 43%;
+  cursor: pointer;
+}
+.card7{
+  position: absolute;
+  background: #91f9d4;
+  width: 150px;
+  height: 230px;
+  border-radius: 15px;
+  left: 51%;
+  top: 43%;
+  cursor: pointer;
+}
+.card8{
+  position: absolute;
+  background: #91f9d4;
+  width: 150px;
+  height: 230px;
+  border-radius: 15px;
+  left: 75%;
+  top: 43%;
+  cursor: pointer;
+}
+.intercard{
+  position: relative;
+  top: 16px;
+}
+.aviso{
+  position: relative;
+  background:#747bff;
+  width: 350px;
+  height: 170px;
+  top: 46.5%;
+  left: 52%;
+  border-radius: 16px;
+}
+.intercard2{
+  position: relative;
+  top: 16px;
+}
+.Back{
+  position: relative;
+  background:#91f9d4;
+  width: 350px;
+  height: 170px;
+  top: 26.7%;
+  left: 5%;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.present{
+  position:absolute;
+  background:#91f9d4;
+  width: 550px;
+  height: 230px;
+  top: 10%;
+  left: 227px;
+  border-radius: 15px;
+  
+}
+.preImg{
+  position: relative;
+  width: 520px;
+  height: 200px;
+  top: 15px;
+  left: 0px;
+}
+.textPres{
+  position: absolute;
+  background:#91f9d4 ;
+  width: 735px;
+  top: 370px;
+  height: 230px;
+  left: 35px;
+  border-radius: 15px;
+}
+.textDesP{
+  position: relative;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 20px;
+  top: -34px;
+  font-size: 13px;
+}
+.conteInfo{
+  opacity: 0;
+}
+.cardinfo{
+  position: absolute;
+  background: #91f9d4;
+  width: 150px;
+  height: 230px;
+  border-radius: 15px;
+  left: 5%;
+  top: 10%;
+  
+}
+.intercardinfo{
+  position: relative;
+  top: 16px;
+}
+.texSki{
+  position: relative;
+  top: -60px;
+  left: 20px;
+  background: black;
+  color: #f9f9f9;
+  width: 45px;
+}
+.titleDes{
+  font-size: 30px;
+  font-family: 'Shantell Sans', sans-serif;
+}
+.skillRig{
+  position: absolute;
+  top: 75%;
+  left: 12%;
+  font-family:  'Mynerve', sans-serif;
+
+}
+.GoB{
+  position:absolute;
+  font-family:  'Mynerve', sans-serif;
+  font-size: 70px;
+  left: 73px;
+  top: -26px;
+  visibility: hidden;
+}
+.GoB:hover{
+  color: #B64926;
+}
+.frontCard{
+  font-family: 'Shantell Sans', sans-serif;
+
+}
+.infoBo{
+  position: absolute;
+  color: #f9f9f9;
+  font-family:  'Shantell Sans', sans-serif;
+  font-size: 36px;
+  line-height: 1;
+  top: -10px;
+  left: 30px;
+}
+
+.BackProyec{
+  position: absolute;
+  top: 250px;
+  left: -355px;
+  font-size: 48px;
+  bottom: 50px;
+  cursor: pointer;
+  z-index: 100;
+  width: 350px;
+  height: 120px;
+
+  
+  font-family:  'Mynerve', sans-serif;
+}
+.BackProyec:hover{
+  color: #B64926;
+}
+.flecha{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: -60px;
+  top: -12px;
+}
+
+
+.preloader{
+  background-color: var(--color-background-light);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  opacity: 1;
+  z-index: 99999999999999999;
+  top: 0px;
+}
+.Start{
+  background-color: var(--color-background-light);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 99999999999999999;
+  
+}
+.carga:hover{
+  color: #646cff;
+  
+}
+
+.preloader-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 6px;
+  background-color: var(--color-pink-light);
+  animation: load 1s ease-in-out infinite;
+}
+
+.circle:nth-child(2){
+  animation-delay: 0.1s;
+}
+
+.circle:nth-child(3){
+  animation-delay: 0.2s;
+}
+
+@keyframes load {
+  0% {
+    transform: translateY(0)
+  }
+
+  20% {
+    transform: translateY(-12px)
+  }
+
+  40% {
+    transform: translateY(0)
+  }
+  
 }

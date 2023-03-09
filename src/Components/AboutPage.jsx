@@ -352,10 +352,10 @@ function AboutPage() {
         <div className="skills-list">
          <a href="https://www.instagram.com/dubhan_/" className="fa fa-instagram"></a>
          <a href="https://twitter.com/Erhwin_" className="fa fa-twitter"></a>
-         <a href="https://www.linkedin.com/in/erwin-soto-389408235/" className="fa fa-linkedin"></a>
+         <a href='https://www.linkedin.com/in/dubhan-soto/' className="fa fa-linkedin"></a>
          <a href='https://github.com/erwinsot' className="fa fa-github"></a>
          <a href='https://t.me/Dhuban' className="fa fa-telegram"></a>
-         <a href='https://drive.google.com/file/d/1P0JBMZ85nYa6-rg9KHWOamv3Q90I6AsN/view?usp=share_link' className="fa fa-file"></a>
+         <a href='https://drive.google.com/file/d/1e4MvGL4pf46KcNIWEX8Ldk24v_vg8KXj/view?usp=share_link' className="fa fa-file"></a>
         </div>
         
 

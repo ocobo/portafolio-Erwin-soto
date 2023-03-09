@@ -12,7 +12,8 @@ const counterSlice = createSlice({
                 path:false,
                 travel:false,
                 buzon: false,
-                room:false
+                room:false,
+                loading:false
 
  },
     reducers: {
@@ -66,10 +67,13 @@ const counterSlice = createSlice({
         chRoom2(state){
             state.room=false
         },
+        chLoading(state){
+            state.loading=true
+        }
 
 
     },
   })
 
-  export const { dark, sun, chCam, chCam2, chSize, chDesktop,chMobile,chTablet, chIntesity, chIntesity2, chPath,chPath2, chTravel,chTravel2,chBuzon,chBuzon2, chRoom,chRoom2 } = counterSlice.actions
+  export const { dark, sun, chCam, chCam2, chSize, chDesktop,chMobile,chTablet, chIntesity, chIntesity2, chPath,chPath2, chTravel,chTravel2,chBuzon,chBuzon2, chRoom,chRoom2,chLoading } = counterSlice.actions
 export default counterSlice.reducer
