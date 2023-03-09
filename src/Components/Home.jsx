@@ -52,7 +52,7 @@ export function Home(props) {
   
   useEffect(()=>{
     
-    console.log("los actions son",actions)
+    //console.log("los actions son",actions)
     actions.AbuelaAction.play()
     actions.M_CalcaAction.play()
     actions.CreidaAction.play()
@@ -100,7 +100,7 @@ export function Home(props) {
   useEffect(()=>{
     dispatch(chLoading())
     
-    console.log("cargado")    
+    //console.log("cargado")    
   },[])
 
   
@@ -2041,7 +2041,7 @@ export function Home(props) {
           rotation={[0,-Math.PI/2,0]}
           onClick={()=>{
             dispatch(chCam());
-            console.log(abaout)
+            
           }}
         
         >
@@ -2131,7 +2131,7 @@ export function Home(props) {
           onClick={()=>{
            
            dispatch(chBuzon())
-           console.log(buzon)
+           
 
                          }}
         >

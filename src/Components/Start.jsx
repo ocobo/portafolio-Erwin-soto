@@ -7,7 +7,7 @@ function Start() {
   return (
     <div className='Start' id='Start'>
         <h1 className='carga' style={{position:"relative",top:"40%", cursor:"pointer"}} onClick={()=>{
-            console.log("sss")
+           
             document.getElementById("Start").style.visibility = "hidden"
             dispatch(chPath())    
  

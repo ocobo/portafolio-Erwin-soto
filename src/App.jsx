@@ -69,7 +69,7 @@ function Controls({ About, Proyect, buzon,start , pos = new THREE.Vector3(), loo
   }
   if((window.innerWidth<1150 && window.innerWidth >769)&& wz>430){
     dispatch(chTablet())
-    console.log("tablet")
+    //console.log("tablet")
    /*  zoom ? pos.set(7, 2,  -0+ 0.4) : pos.set(25, 9, 12)
     zoom ? look.set(4.3, -9.6, -1.83 - 0.5) : look.set(4, 2, 0) */
     if(About){
@@ -83,7 +83,7 @@ function Controls({ About, Proyect, buzon,start , pos = new THREE.Vector3(), loo
 
     }
     if(buzon && About===false && Proyect===false){
-      console.log("b")
+      //console.log("b")
       pos.set(-15, 10, 15)
       look.set(13, 5, 0)
 
@@ -110,37 +110,37 @@ function Controls({ About, Proyect, buzon,start , pos = new THREE.Vector3(), loo
   if(sz<768 && wz>430){
     dispatch(chMobile())
     
-   console.log("mobile2")
+   //console.log("mobile2")
     
     if(About){
-      console.log("a")
+      //console.log("a")
       pos.set(0.5, 1.8, 0.63)
       look.set(-12, 1.5, 0)
     }
 
     if(Proyect && About===false){
-      console.log("p")
+      //console.log("p")
       pos.set(-0.9, 11, 1)
       look.set(-0.86, 11, 0)
 
     }
 
     if(buzon && About===false && Proyect===false){
-      console.log("b")
+      //console.log("b")
       pos.set(-15, 10, 15)
       look.set(13, 5, 0)
 
     }
 
     if(start==true && buzon===false && About===false && Proyect===false){
-      console.log("s")
+      //console.log("s")
       pos.set(9, 2.5, 13)
       look.set(4, 3, 0)
 
     }
     
     if(start===false && About===false && Proyect===false && buzon===false){
-      console.log("to")
+      //console.log("to")
       pos.set(9, 2.5,50)
       look.set(0, 3, 0)
     }
@@ -154,7 +154,7 @@ function Controls({ About, Proyect, buzon,start , pos = new THREE.Vector3(), loo
   }
   if(wz<429 && sz<920 ){
     dispatch(chMobile())
-   console.log("m")
+   //console.log("m")
     if(About){
       pos.set(4, 2.8, -1+ 0.4)
       look.set(3.1, 2.6, -1 - 0.5)
@@ -209,7 +209,7 @@ function App() {
       <div className="App">
       {loading ? <Start/>: <Loader/>}
       </div>
-     <Canvas shadows>
+     <Canvas shadows   gl={{ antialias: true }} dpr={window.devicePixelRatio}>
      <Lights/>
      <Controls About={About} Proyect={Proyect} buzon={buzon} start={path}/>
      <Effects disableGamma >
