@@ -32,7 +32,7 @@ const glowRedyell = new THREE.MeshBasicMaterial({ color: new THREE.Color("#FDDE0
 
 export function Home(props) {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF("/public/casaPort27.glb");
+  const { nodes, materials, animations } = useGLTF("/src/assets/casaPort27.glb");
   const { actions } = useAnimations(animations, group);
   const dispatch=useDispatch()
   const [hovered, setHovered] = useState(false)
@@ -2389,4 +2389,4 @@ export function Home(props) {
 }
 
 
-useGLTF.preload("/public/casaPort27.glb");
+useGLTF.preload("/src/assets/casaPort27.glb");
