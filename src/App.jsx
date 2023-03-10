@@ -211,7 +211,7 @@ function App() {
       <div className="App">
       {loading ? <Start/>: <Loader/>}
       </div>
-     <Canvas shadows   gl={{ antialias: true }} dpr={mobile? Math.min(3, window.devicePixelRatio) : window.devicePixelRatio}>
+     <Canvas shadows={false}   gl={{ antialias: true }} dpr={mobile? Math.min(3, window.devicePixelRatio) : window.devicePixelRatio}>
      <Lights/>
      <Controls About={About} Proyect={Proyect} buzon={buzon} start={path}/>
      <Effects disableGamma >
