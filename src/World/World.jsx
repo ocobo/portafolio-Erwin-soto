@@ -9,8 +9,8 @@ function World() {
   return (
     <>
         <OrbitControls/>        
-        {/* <Home/> */}
-        <Room2/>
+        <Home/>
+        {/* <Room2/> */}
     </>
   )
 }

@@ -212,7 +212,8 @@ function App() {
       {/* {loading ? <Start/>: <Loader/>} */}
       </div>
      <Canvas shadows={false}   gl={{ antialias: true }} dpr={mobile? Math.min(3, window.devicePixelRatio) : window.devicePixelRatio}>
-     <Lights/>
+     {/* <Lights/> */}
+     <ambientLight/>
      {/* <Controls About={About} Proyect={Proyect} buzon={buzon} start={path}/> */}
      <Effects disableGamma >
      <unrealBloomPass threshold={1} strength={0.25} radius={0.7} />

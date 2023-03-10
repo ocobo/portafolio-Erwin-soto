@@ -54,7 +54,7 @@ export function Home(props) {
   useEffect(()=>{
     
     //console.log("los actions son",actions)
-    /* if(mobile===false){
+    if(mobile===false){
     actions.AbuelaAction.play()
     actions.M_CalcaAction.play()
     actions.CreidaAction.play()
@@ -65,7 +65,7 @@ export function Home(props) {
     actions.Hazul_Action2.play()}
     else{
       console.log("mobile active")
-    } */
+    }
   })
 
   const [video]= useState(()=>{
@@ -132,113 +132,113 @@ export function Home(props) {
           >
             <mesh
               name="Mesh069"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069.geometry}
               material={materials["TAPA BASURA"]}
             />
             <mesh
               name="Mesh069_1"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_1.geometry}
               material={materials["Material.026"]}
             />
             <mesh
               name="Mesh069_2"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_2.geometry}
               material={materials["Material.024"]}
             />
             <mesh
               name="Mesh069_3"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_3.geometry}
               material={materials["Material.025"]}
             />
             <mesh
               name="Mesh069_4"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_4.geometry}
               material={materials["Material.027"]}
             />
             <mesh
               name="Mesh069_5"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_5.geometry}
               material={materials["leaf_green.002"]}
             />
             <mesh
               name="Mesh069_6"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_6.geometry}
               material={materials["leaf_green.005"]}
             />
             <mesh
               name="Mesh069_7"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_7.geometry}
               material={materials.leaf_green}
             />
             <mesh
               name="Mesh069_8"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_8.geometry}
               material={materials["leaf_green.001"]}
             />
             <mesh
               name="Mesh069_9"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_9.geometry}
               material={materials["leaf_green.004"]}
             />
             <mesh
               name="Mesh069_10"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_10.geometry}
               material={materials["leaf_green.003"]}
             />
             <mesh
               name="Mesh069_11"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_11.geometry}
               material={materials.tree_wood}
             />
             <mesh
               name="Mesh069_12"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_12.geometry}
               material={materials.lambert18}
             />
             <mesh
               name="Mesh069_13"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_13.geometry}
               material={materials.DefaultMaterial}
             />
             <mesh
               name="Mesh069_14"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_14.geometry}
               material={materials["DefaultMaterial.001"]}
             />
             <mesh
               name="Mesh069_15"
-          
-              
+              castShadow
+              receiveShadow
               geometry={nodes.Mesh069_15.geometry}
               material={materials.BASURA}
             />
@@ -247,16 +247,16 @@ export function Home(props) {
         
         <mesh
           name="CAble"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.CAble.geometry}
           material={materials.CABLES}
           position={[0.477803, 10.734864, -3.052925]}
         />
         <mesh
           name="cable3"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.cable3.geometry}
           material={materials.CABLES}
           position={[-1.129382, 10.074607, -4.243993]}
@@ -359,32 +359,32 @@ export function Home(props) {
         </group>
         <mesh
           name="calbe2"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.calbe2.geometry}
           material={materials.CABLES}
           position={[0.41152, 10.711896, -3.052926]}
         />
         <mesh
           name="calble"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.calble.geometry}
           material={nodes.calble.material}
           position={[-1.779163, 9.451241, -5.249079]}
         />
         <mesh
           name="cable4"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.cable4.geometry}
           material={materials.CABLES}
           position={[-2.864102, 9.898415, -4.936801]}
         />
         <mesh
           name="entrada_pareuq"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.entrada_pareuq.geometry}
           material={materials.marmol}
           position={[-2.307118, 1.342484, 3.859451]}
@@ -399,15 +399,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube023"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube023.geometry}
             material={materials.REJAS}
           />
           <mesh
             name="Cube023_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube023_1.geometry}
             material={materials.ventanas_trasparente}
           />
@@ -419,51 +419,51 @@ export function Home(props) {
         >
           <mesh
             name="Plane002"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane002.geometry}
             material={materials.marmol}
             
           />
           <mesh
             name="Plane002_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane002_1.geometry}
             material={materials.piso}
           />
           <mesh
             name="Plane002_2"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane002_2.geometry}
             material={materials.pared}
           />
           <mesh
             name="Plane002_3"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane002_3.geometry}
             material={glowRed}
           />
           <mesh
             name="Plane002_4"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane002_4.geometry}
             material={materials["Material.002"]}
           />
           <mesh
             name="Plane002_5"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane002_5.geometry}
             material={materials.VENTANA}
           />
           <mesh
             name="Plane002_6"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane002_6.geometry}
             material={materials["Material.019"]}
           />
@@ -476,15 +476,15 @@ export function Home(props) {
         >
           <mesh
             name="Plane005"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane005.geometry}
             material={materials.ventiladoe2}
           />
           <mesh
             name="Plane005_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane005_1.geometry}
             material={materials.ventiladoe2}
           />
@@ -497,23 +497,23 @@ export function Home(props) {
         >
           <mesh
             name="Cube022"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube022.geometry}
             material={materials.REJAS}
           />
           <mesh
             name="Cube022_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube022_1.geometry}
             material={materials.ventanas_trasparente}
           />
         </group>
         <mesh
           name="venti_2"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.venti_2.geometry}
           material={materials.aspas}
           position={[1.497852, 9.783439, -5.370657]}
@@ -528,23 +528,23 @@ export function Home(props) {
         >
           <mesh
             name="Cube026"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube026.geometry}
             material={materials.REJAS}
           />
           <mesh
             name="Cube026_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube026_1.geometry}
             material={materials.ventanas_trasparente}
           />
         </group>
         <mesh
           name="ventilador"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.ventilador.geometry}
           material={materials["piso ventilador"]}
           position={[1.497852, 9.758862, -5.370657]}
@@ -552,8 +552,8 @@ export function Home(props) {
         />
         <mesh
           name="sup_venti_2"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.sup_venti_2.geometry}
           material={materials.ventilado}
           position={[1.497852, 9.865423, -5.370657]}
@@ -566,23 +566,23 @@ export function Home(props) {
         >
           <mesh
             name="Cube038"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube038.geometry}
             material={materials.Material}
           />
           <mesh
             name="Cube038_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube038_1.geometry}
             material={materials["Material.003"]}
           />
         </group>
         <mesh
           name="Ladrillos"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.Ladrillos.geometry}
           material={materials.marmol}
           position={[2.231698, 9.155363, -2.332386]}
@@ -597,15 +597,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube060"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube060.geometry}
             material={materials["Material.008"]}
           />
           <mesh
             name="Cube060_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube060_1.geometry}
             material={materials.parasMesas}
           />
@@ -618,37 +618,37 @@ export function Home(props) {
         >
           <mesh
             name="Plane007"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane007.geometry}
             material={materials.puerta}
           />
           <mesh
             name="Plane007_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane007_1.geometry}
             material={materials["Material.005"]}
           />
           <mesh
             name="Plane007_2"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane007_2.geometry}
             material={materials["Material.006"]}
           />
           <mesh
             name="Plane007_3"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane007_3.geometry}
             material={glowRed}
           />
         </group>
         <mesh
           name="cima_parasol"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.cima_parasol.geometry}
           material={nodes.cima_parasol.material}
           position={[-3.13795, 9.441238, -0.414881]}
@@ -662,29 +662,29 @@ export function Home(props) {
         >
           <mesh
             name="Plane001"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane001.geometry}
             material={materials.puerta}
           />
           <mesh
             name="Plane001_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane001_1.geometry}
             material={materials["Material.005"]}
           />
           <mesh
             name="Plane001_2"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane001_2.geometry}
             material={materials["Material.006"]}
           />
           <mesh
             name="Plane001_3"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane001_3.geometry}
             material={glowRed}
           />
@@ -697,29 +697,29 @@ export function Home(props) {
         >
           <mesh
             name="Plane009"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane009.geometry}
             material={materials.puerta}
           />
           <mesh
             name="Plane009_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane009_1.geometry}
             material={materials["Material.005"]}
           />
           <mesh
             name="Plane009_2"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane009_2.geometry}
             material={materials["Material.006"]}
           />
           <mesh
             name="Plane009_3"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane009_3.geometry}
             material={glowRed}
           />
@@ -732,29 +732,29 @@ export function Home(props) {
         >
           <mesh
             name="Plane008"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane008.geometry}
             material={materials.puerta}
           />
           <mesh
             name="Plane008_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane008_1.geometry}
             material={materials["Material.005"]}
           />
           <mesh
             name="Plane008_2"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane008_2.geometry}
             material={materials["Material.006"]}
           />
           <mesh
             name="Plane008_3"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Plane008_3.geometry}
             material={glowRed}
           />
@@ -767,23 +767,23 @@ export function Home(props) {
         >
           <mesh
             name="Cylinder010"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder010.geometry}
             material={materials["Material.007"]}
           />
           <mesh
             name="Cylinder010_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder010_1.geometry}
             material={materials["Material.020"]}
           />
         </group>
         <mesh
           name="parasol"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.parasol.geometry}
           material={materials.PARASOL}
           position={[-3.137949, 9.488691, -0.41488]}
@@ -792,8 +792,8 @@ export function Home(props) {
         />
         <mesh
           name="piso_parque"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.piso_parque.geometry}
           material={materials["PISO PARQUE"]}
           position={[-3.83179, 0.231886, 3.936718]}
@@ -807,15 +807,15 @@ export function Home(props) {
         >
           <mesh
             name="Mesh002"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh002.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh002_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh002_1.geometry}
             material={materials["Mat.3"]}
           />
@@ -828,15 +828,15 @@ export function Home(props) {
         >
           <mesh
             name="Cylinder014"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder014.geometry}
             material={materials.BASE_MESA}
           />
           <mesh
             name="Cylinder014_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder014_1.geometry}
             material={materials.MESA}
           />
@@ -848,15 +848,15 @@ export function Home(props) {
         >
           <mesh
             name="Cylinder013"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder013.geometry}
             material={materials.BASE_MESA}
           />
           <mesh
             name="Cylinder013_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder013_1.geometry}
             material={materials.MESA}
           />
@@ -868,15 +868,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube045"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube045.geometry}
             material={materials["Material.008"]}
           />
           <mesh
             name="Cube045_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube045_1.geometry}
             material={materials.parasMesas}
           />
@@ -889,15 +889,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube061"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube061.geometry}
             material={materials["Material.008"]}
           />
           <mesh
             name="Cube061_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube061_1.geometry}
             material={materials.parasMesas}
           />
@@ -910,15 +910,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube046"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube046.geometry}
             material={materials["Material.008"]}
           />
           <mesh
             name="Cube046_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube046_1.geometry}
             material={materials.parasMesas}
           />
@@ -931,15 +931,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube071"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube071.geometry}
             material={materials["silla park"]}
           />
           <mesh
             name="Cube071_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube071_1.geometry}
             material={materials.MESA}
           />
@@ -951,15 +951,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube081"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube081.geometry}
             material={materials["BASE MATERA"]}
           />
           <mesh
             name="Cube081_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube081_1.geometry}
             material={materials.TIERRA}
           />
@@ -972,15 +972,15 @@ export function Home(props) {
         >
           <mesh
             name="Mesh003"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh003.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh003_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh003_1.geometry}
             material={materials["Mat.3"]}
           />
@@ -993,23 +993,23 @@ export function Home(props) {
         >
           <mesh
             name="Mesh005"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh005.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh005_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh005_1.geometry}
             material={materials["Mat.3"]}
           />
         </group>
         <mesh
           name="limite_casa"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.limite_casa.geometry}
           material={materials.marmol}
           position={[4.259267, -0.006818, 1.047917]}
@@ -1023,15 +1023,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube053"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube053.geometry}
             material={materials.ES_PARASOL}
           />
           <mesh
             name="Cube053_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube053_1.geometry}
             material={materials["BASE PARASOL"]}
           />
@@ -1044,15 +1044,15 @@ export function Home(props) {
         >
           <mesh
             name="Mesh001"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh001.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh001_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh001_1.geometry}
             material={materials["Mat.3"]}
           />
@@ -1064,15 +1064,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube076"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube076.geometry}
             material={materials["BASE MATERA"]}
           />
           <mesh
             name="Cube076_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube076_1.geometry}
             material={materials.TIERRA}
           />
@@ -1085,15 +1085,15 @@ export function Home(props) {
         >
           <mesh
             name="Mesh006"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh006.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh006_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh006_1.geometry}
             material={materials["Mat.3"]}
           />
@@ -1106,15 +1106,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube082"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube082.geometry}
             material={materials["BASE MATERA"]}
           />
           <mesh
             name="Cube082_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube082_1.geometry}
             material={materials.TIERRA}
           />
@@ -1126,15 +1126,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube080"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube080.geometry}
             material={materials["BASE MATERA"]}
           />
           <mesh
             name="Cube080_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube080_1.geometry}
             material={materials.TIERRA}
           />
@@ -1147,23 +1147,23 @@ export function Home(props) {
         >
           <mesh
             name="Mesh010"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh010.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh010_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh010_1.geometry}
             material={materials["Mat.3"]}
           />
         </group>
         <mesh
           name="pisopaeque"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.pisopaeque.geometry}
           material={materials["Material.035"]}
           position={[0, -0.126859, -1.161307]}
@@ -1177,15 +1177,15 @@ export function Home(props) {
         >
           <mesh
             name="Mesh007"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh007.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh007_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh007_1.geometry}
             material={materials["Mat.3"]}
           />
@@ -1198,15 +1198,15 @@ export function Home(props) {
         >
           <mesh
             name="Mesh011"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh011.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh011_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh011_1.geometry}
             material={materials["Mat.3"]}
           />
@@ -1219,23 +1219,23 @@ export function Home(props) {
         >
           <mesh
             name="Mesh012"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh012.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh012_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh012_1.geometry}
             material={materials["Mat.3"]}
           />
         </group>
         <mesh
           name="escaleras001"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.escaleras001.geometry}
           material={materials.ESCALERAS}
           position={[-6.113248, 0.015381, -0.029968]}
@@ -1250,15 +1250,15 @@ export function Home(props) {
         >
           <mesh
             name="Mesh008"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh008.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh008_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh008_1.geometry}
             material={materials["Mat.3"]}
           />
@@ -1271,23 +1271,23 @@ export function Home(props) {
         >
           <mesh
             name="Mesh009"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh009.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh009_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh009_1.geometry}
             material={materials["Mat.3"]}
           />
         </group>
         <mesh
           name="pCube212008"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.pCube212008.geometry}
           material={materials.lambert18}
           position={[-7.868985, -0.331924, 6.747897]}
@@ -1302,15 +1302,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube083"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube083.geometry}
             material={materials["BASE MATERA"]}
           />
           <mesh
             name="Cube083_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube083_1.geometry}
             material={materials.TIERRA}
           />
@@ -1323,15 +1323,15 @@ export function Home(props) {
         >
           <mesh
             name="Mesh013"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh013.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh013_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh013_1.geometry}
             material={materials["Mat.3"]}
           />
@@ -1344,15 +1344,15 @@ export function Home(props) {
         >
           <mesh
             name="Mesh014"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh014.geometry}
             material={materials.Mat}
           />
           <mesh
             name="Mesh014_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh014_1.geometry}
             material={materials["Mat.3"]}
           />
@@ -1365,22 +1365,22 @@ export function Home(props) {
         >
           <mesh
             name="Cylinder003"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder003.geometry}
             material={materials.PATAS_SOLARES}
           />
           <mesh
             name="Cylinder003_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder003_1.geometry}
             material={glowGreen}
           />
           <mesh
             name="Cylinder003_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder003_1.geometry}
             material={glowGreen}
             position={[0,10.3,0]}
@@ -1396,15 +1396,15 @@ export function Home(props) {
         >
           <mesh
             name="Circle010"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Circle010.geometry}
             material={materials["Black.002"]}
           />
           <mesh
             name="Circle010_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Circle010_1.geometry}
             material={materials["Light_black.002"]}
           />
@@ -1416,16 +1416,16 @@ export function Home(props) {
         >
           <mesh
             name="Cube001"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube001.geometry}
             material={materials.cartel}
             material-color={"#81CAB5"}
           />
           <mesh
             name="Cube001_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube001_1.geometry}
             material={new THREE.MeshBasicMaterial({color: 0x00000}) }
           >
@@ -1448,7 +1448,9 @@ export function Home(props) {
         geometry={new THREE.PlaneGeometry(1,1)}
         scale={[2.4,1.6,1]}
         rotation={[0,0,0]}
-        material={new THREE.MeshBasicMaterial({color: 0x00000})  }
+        material={abaout ? new THREE.MeshBasicMaterial({color: 0x00000}) :new THREE.MeshBasicMaterial({
+            map:  VideoTextures2
+                    })  }
         ></mesh>
         <group
           name="Spring"
@@ -1458,23 +1460,23 @@ export function Home(props) {
         >
           <mesh
             name="Circle013"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Circle013.geometry}
             material={materials["Black.002"]}
           />
           <mesh
             name="Circle013_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Circle013_1.geometry}
             material={materials["Light_black.002"]}
           />
         </group>
         <mesh
           name="base_antena"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.base_antena.geometry}
           material={materials.antena}
           position={[-3.676729, 10.620749, -4.335822]}
@@ -1482,8 +1484,8 @@ export function Home(props) {
         />
         <mesh
           name="piso"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.piso.geometry}
           material={materials.pisp}
           position={[1.007096, -0.131407, 2.125313]}
@@ -1491,8 +1493,8 @@ export function Home(props) {
         />
         <mesh
           name="girto_antena"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.girto_antena.geometry}
           material={materials.antena}
           position={[-3.676729, 11.331065, -4.335822]}
@@ -1500,8 +1502,8 @@ export function Home(props) {
         />
         <mesh
           name="entrada_cables"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.entrada_cables.geometry}
           material={materials["Material.021"]}
           position={[-0.746234, 11.270007, -2.894904]}
@@ -1509,8 +1511,8 @@ export function Home(props) {
         />
         <mesh
           name="pCube212026"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.pCube212026.geometry}
           material={materials.lambert18}
           position={[4.965889, -0.331924, -9.169538]}
@@ -1519,8 +1521,8 @@ export function Home(props) {
         />
         <mesh
           name="lamrapa_calle"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.lamrapa_calle.geometry}
           material={glowBlue}
           position={[9.05, 3.077059,7.7]}
@@ -1534,15 +1536,15 @@ export function Home(props) {
         >
           <mesh
             name="Circle012"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Circle012.geometry}
             material={materials["Black.002"]}
           />
           <mesh
             name="Circle012_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Circle012_1.geometry}
             material={materials["Light_black.002"]}
           />
@@ -1554,15 +1556,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube021"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube021.geometry}
             material={glowBlue}
           />
           <mesh
             name="Cube021_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube021_1.geometry}
             material={materials["Material.023"]}
           />
@@ -1575,23 +1577,23 @@ export function Home(props) {
         >
           <mesh
             name="Cylinder012"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder012.geometry}
             material={materials["Black.002"]}
           />
           <mesh
             name="Cylinder012_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder012_1.geometry}
             material={materials["Light_black.002"]}
           />
         </group>
         <mesh
           name="SILLA"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.SILLA.geometry}
           material={materials.sillaDormir}
           position={[-0.037715, 6.521499, -1.199734]}
@@ -1606,43 +1608,43 @@ export function Home(props) {
         >
           <mesh
             name="Mesh124"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh124.geometry}
             material={materials["Material.015"]}
           />
           <mesh
             name="Mesh124_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh124_1.geometry}
             material={materials.llanta}
           />
           <mesh
             name="Mesh124_2"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh124_2.geometry}
             material={materials["Material.017"]}
           />
           <mesh
             name="Mesh124_3"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh124_3.geometry}
             material={materials["Material.033"]}
           />
           <mesh
             name="Mesh124_4"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh124_4.geometry}
             material={materials["luces delasnteras"]}
           />
           <mesh
             name="Mesh124_5"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh124_5.geometry}
             material={materials["Material.034"]}
           />
@@ -1655,30 +1657,30 @@ export function Home(props) {
         >
           <mesh
             name="Mesh004"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh004.geometry}
             material={materials.lambert18}
           />
           <mesh
             name="Mesh004_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh004_1.geometry}
             material={materials.marmol}
           />
           <mesh
             name="Mesh004_2"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh004_2.geometry}
             material={materials.TIERRA}
           />
         </group>
         <mesh
           name="lampara"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.lampara.geometry}
           material={materials.marmol}
           position={[-1.82792, 2.146587, 2.305249]}
@@ -1686,8 +1688,8 @@ export function Home(props) {
         />
         <mesh
           name="lampara002"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.lampara002.geometry}
           material={materials.marmol}
           position={[-0.79562, 8.400322, -2.262463]}
@@ -1702,15 +1704,15 @@ export function Home(props) {
         >
           <mesh
             name="Circle011"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Circle011.geometry}
             material={materials["Black.002"]}
           />
           <mesh
             name="Circle011_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Circle011_1.geometry}
             material={materials["Light_black.002"]}
           />
@@ -1723,58 +1725,58 @@ export function Home(props) {
         >
           <mesh
             name="Mesh126"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh126.geometry}
             material={materials["aiStandardSurface1.001"]}
           />
           <mesh
             name="Mesh126_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh126_1.geometry}
             material={materials.bombper}
           />
           <mesh
             name="Mesh126_2"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh126_2.geometry}
             material={materials.taxi}
           />
           <mesh
             name="Mesh126_3"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh126_3.geometry}
             material={glowBlue}
           />
           <mesh
             name="Mesh126_4"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh126_4.geometry}
             material={materials.luces}
           />
           <mesh
             name="Mesh126_5"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh126_5.geometry}
             material={materials.llanta}
           />
           <mesh
             name="Mesh126_6"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Mesh126_6.geometry}
             material={materials["Material.014"]}
           />
         </group>
         <mesh
           name="CERCA"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.CERCA.geometry}
           material={materials["Material.016"]}
           position={[4.841491, 0.160302, -4.54964]}
@@ -1782,8 +1784,8 @@ export function Home(props) {
         />
         <mesh
           name="Plane"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.Plane.geometry}
           material={materials["Material.022"]}
           position={[-1.568122, -0.270236, -1.704771]}
@@ -1797,15 +1799,15 @@ export function Home(props) {
         >
           <mesh
             name="Cylinder011"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder011.geometry}
             material={materials["Black.002"]}
           />
           <mesh
             name="Cylinder011_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder011_1.geometry}
             material={materials["Light_black.002"]}
           />
@@ -1818,15 +1820,15 @@ export function Home(props) {
         >
           <mesh
             name="Cylinder021"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder021.geometry}
             material={materials["Black.002"]}
           />
           <mesh
             name="Cylinder021_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder021_1.geometry}
             material={materials["Light_black.002"]}
           />
@@ -1839,15 +1841,15 @@ export function Home(props) {
         >
           <mesh
             name="Cylinder022"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder022.geometry}
             material={materials["Black.002"]}
           />
           <mesh
             name="Cylinder022_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cylinder022_1.geometry}
             material={materials["Light_black.002"]}
           />
@@ -1860,79 +1862,79 @@ export function Home(props) {
         >
           <mesh
             name="Cube009"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube009.geometry}
             material={materials["Black.002"]}
           />
           <mesh
             name="Cube009_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube009_1.geometry}
             material={materials["Light_black.002"]}
           />
           <mesh
             name="Cube009_2"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube009_2.geometry}
             material={materials["Orange.002"]}
           />
           <mesh
             name="Cube009_3"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube009_3.geometry}
             material={materials["Glass.002"]}
           />
           <mesh
             name="Cube009_4"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube009_4.geometry}
             material={glowYellow}
           />
           <mesh
             name="Cube009_5"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube009_5.geometry}
             material={materials["Light_red.002"]}
           />
           <mesh
             name="Cube009_6"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube009_6.geometry}
             material={materials["Dark_brown.002"]}
           />
           <mesh
             name="Cube009_7"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube009_7.geometry}
             material={materials["Dark_brown_handle.002"]}
           />
           <mesh
             name="Cube009_8"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube009_8.geometry}
             material={materials["Glass_trailer.002"]}
           />
           <mesh
             name="Cube009_9"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube009_9.geometry}
             material={materials["Brown.002"]}
           />
         </group>
         <mesh
           name="ladrillo"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.ladrillo.geometry}
           material={materials.ladrillos}
           position={[-4.666406, 2.539444, 5.726112]}
@@ -1940,8 +1942,8 @@ export function Home(props) {
         />
         <mesh
           name="Farol"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.Farol.geometry}
           material={materials.farol}
           position={[8.293884, -0.003551, 7.704031]}
@@ -1956,23 +1958,23 @@ export function Home(props) {
         >
           <mesh
             name="Cube006"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube006.geometry}
             material={materials.marmol}
           />
           <mesh
             name="Cube006_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube006_1.geometry}
             material={materials["PATA MESA"]}
           />
         </group>
         <mesh
           name="lamparaCalle"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.lamparaCalle.geometry}
           material={glowBlue}
           position={[7.55, 3.077059, 7.75]}
@@ -1980,8 +1982,8 @@ export function Home(props) {
         />
         <mesh
           name="lampara001"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.lampara001.geometry}
           material={materials.marmol}
           position={[-1.82792, 2.146587, 5.296983]}
@@ -1989,8 +1991,8 @@ export function Home(props) {
         />
         <mesh
           name="lampara003"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.lampara003.geometry}
           material={materials.marmol}
           position={[-2.708237, 8.400322, -2.253526]}
@@ -2004,15 +2006,15 @@ export function Home(props) {
         >
           <mesh
             name="Sphere002"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Sphere002.geometry}
             material={glowRedyell}
           />
           <mesh
             name="Sphere002_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Sphere002_1.geometry}
             material={materials["Material.011"]}
           />
@@ -2024,15 +2026,15 @@ export function Home(props) {
         >
           <mesh
             name="Sphere003"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Sphere003.geometry}
             material={glowRedyell}
           />
           <mesh
             name="Sphere003_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Sphere003_1.geometry}
             material={materials["Material.011"]}
           />
@@ -2050,15 +2052,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube.geometry}
             material={materials.farol}
           />
           <mesh
             name="Cube_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube_1.geometry}
             material={glowYellow}
           >
@@ -2083,15 +2085,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube002"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube002.geometry}
             material={materials.farol}
           />
           <mesh
             name="Cube002_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube002_1.geometry}
             material={glowBuesCar}
           >
@@ -2111,15 +2113,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube003"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube003.geometry}
             material={materials.farol}
           />
           <mesh
             name="Cube003_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube003_1.geometry}
             material={glowGreen}
           >
@@ -2140,15 +2142,15 @@ export function Home(props) {
         >
           <mesh
             name="Cube004"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube004.geometry}
             material={materials.farol}
           />
           <mesh
             name="Cube004_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube004_1.geometry}
             material={glowPurpue}
           >
@@ -2167,23 +2169,23 @@ export function Home(props) {
         >
           <mesh
             name="Cube005"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube005.geometry}
             material={glowBlue}
           />
           <mesh
             name="Cube005_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube005_1.geometry}
             material={materials["Material.023"]}
           />
         </group>
         <mesh
           name="SILLA001"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.SILLA001.geometry}
           material={materials.sillaDormir}
           position={[1.879279, 6.492455, -1.088489]}
@@ -2198,22 +2200,22 @@ export function Home(props) {
         >
           <mesh
             name="Cube028"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube028.geometry}
             material={materials.cubierta_maqui}
           />
           <mesh
             name="Cube028_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube028_1.geometry}
             material={materials.salen_botte}
           />
           <mesh
             name="Cube028_2"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube028_2.geometry}
             material={materials.marco_machine}
           />
@@ -2224,7 +2226,9 @@ export function Home(props) {
         position={[-0.97, 1.715, 0.563796]}
         geometry={new THREE.PlaneGeometry(1,1)}
         rotation={[0,Math.PI/2,0]}
-        material={glowBlue}
+        material={new THREE.MeshBasicMaterial({
+            map: VideoTextures
+                    })}
         >
         {
           proyect ? <Html scale={0.049} position={[0.499, -0.53,0]} transform occlude>
@@ -2244,8 +2248,8 @@ export function Home(props) {
         </mesh>
         <mesh
           name="Mailbox001"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.Mailbox001.geometry}
           material={materials.Mailbox}
           position={[8.566858, 0, 0.825209]}
@@ -2254,8 +2258,8 @@ export function Home(props) {
         />
         <mesh
           name="planta_b001"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.planta_b001.geometry}
           material={materials.materaLinda}
           position={[-1.286871, 6.586444, 1.302448]}
@@ -2264,8 +2268,8 @@ export function Home(props) {
         />
         <mesh
           name="planta_b"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.planta_b.geometry}
           material={materials.materaLinda}
           position={[1.661881, 0.508187, -1.959844]}
@@ -2274,8 +2278,8 @@ export function Home(props) {
         />
         <mesh
           name="planta_b002"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.planta_b002.geometry}
           material={materials.materaLinda}
           position={[1.726622, 3.444114, -1.924667]}
@@ -2284,8 +2288,8 @@ export function Home(props) {
         />
         <mesh
           name="planta_b003"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.planta_b003.geometry}
           material={materials.materaLinda}
           position={[-5.157186, 6.594273, -1.741478]}
@@ -2294,8 +2298,8 @@ export function Home(props) {
         />
         <mesh
           name="matera_b002"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.matera_b002.geometry}
           material={materials["Material.012"]}
           position={[1.646543, 0.404498, -1.933686]}
@@ -2310,23 +2314,23 @@ export function Home(props) {
         >
           <mesh
             name="Cube073"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube073.geometry}
             material={materials["Material.012"]}
           />
           <mesh
             name="Cube073_1"
-        
-            
+            castShadow
+            receiveShadow
             geometry={nodes.Cube073_1.geometry}
             material={materials["Material.013"]}
           />
         </group>
         <mesh
           name="matera_b"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.matera_b.geometry}
           material={materials["Material.013"]}
           position={[1.711284, 3.340425, -1.89851]}
@@ -2335,8 +2339,8 @@ export function Home(props) {
         />
         <mesh
           name="matera_b001"
-      
-          
+          castShadow
+          receiveShadow
           geometry={nodes.matera_b001.geometry}
           material={materials["Material.013"]}
           position={[-5.172524, 6.490584, -1.71532]}
