@@ -651,6 +651,9 @@ button:hover {
   z-index: 99999999999999999;
   
 }
+.carga{
+  color: #022f40;
+}
 .carga:hover{
   color: #646cff;
   
