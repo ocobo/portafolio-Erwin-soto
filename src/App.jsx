@@ -17,6 +17,7 @@ CameraControls.install({ THREE })
 
 function Controls({ About, Proyect, buzon,start , pos = new THREE.Vector3(), look = new THREE.Vector3() }) {
   const dispatch=useDispatch()
+ 
   const camera = useThree((state) => state.camera)
   
   
@@ -198,6 +199,7 @@ function App() {
   const buzon=useSelector((state=>state.counter.buzon))
   const loading=useSelector((state=>state.counter.loading))
   const path=useSelector((state=>state.counter.path))
+  const mobile=useSelector((state=>state.counter.mobile))
  
 
   /* if(loading==false){
@@ -209,7 +211,7 @@ function App() {
       <div className="App">
       {loading ? <Start/>: <Loader/>}
       </div>
-     <Canvas shadows   gl={{ antialias: true }} dpr={window.devicePixelRatio}>
+     <Canvas shadows   gl={{ antialias: true }} dpr={mobile? Math.min(3, window.devicePixelRatio) : window.devicePixelRatio}>
      <Lights/>
      <Controls About={About} Proyect={Proyect} buzon={buzon} start={path}/>
      <Effects disableGamma >
