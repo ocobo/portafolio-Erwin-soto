@@ -209,11 +209,11 @@ function App() {
   return (
     <>
       <div className="App">
-      {loading ? <Start/>: <Loader/>}
+      {/* {loading ? <Start/>: <Loader/>} */}
       </div>
      <Canvas shadows={false}   gl={{ antialias: true }} dpr={mobile? Math.min(3, window.devicePixelRatio) : window.devicePixelRatio}>
      <Lights/>
-     <Controls About={About} Proyect={Proyect} buzon={buzon} start={path}/>
+     {/* <Controls About={About} Proyect={Proyect} buzon={buzon} start={path}/> */}
      <Effects disableGamma >
      <unrealBloomPass threshold={1} strength={0.25} radius={0.7} />
      </Effects>
