@@ -1448,9 +1448,7 @@ export function Home(props) {
         geometry={new THREE.PlaneGeometry(1,1)}
         scale={[2.4,1.6,1]}
         rotation={[0,0,0]}
-        material={abaout ? new THREE.MeshBasicMaterial({color: 0x00000}) :new THREE.MeshBasicMaterial({
-            map:  VideoTextures2
-                    })  }
+        material={new THREE.MeshBasicMaterial({color: 0x00000})  }
         ></mesh>
         <group
           name="Spring"
@@ -2226,9 +2224,7 @@ export function Home(props) {
         position={[-0.97, 1.715, 0.563796]}
         geometry={new THREE.PlaneGeometry(1,1)}
         rotation={[0,Math.PI/2,0]}
-        material={new THREE.MeshBasicMaterial({
-            map: VideoTextures
-                    })}
+        material={glowBlue}
         >
         {
           proyect ? <Html scale={0.049} position={[0.499, -0.53,0]} transform occlude>
