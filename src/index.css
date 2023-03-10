@@ -545,6 +545,7 @@ button:hover {
   padding: 20px;
   top: -34px;
   font-size: 13px;
+  color:#242424
 }
 .conteInfo{
   opacity: 0;
@@ -574,12 +575,14 @@ button:hover {
 .titleDes{
   font-size: 30px;
   font-family: 'Shantell Sans', sans-serif;
+  color: #242424;
 }
 .skillRig{
   position: absolute;
   top: 75%;
   left: 12%;
   font-family:  'Mynerve', sans-serif;
+  color: #242424;
 
 }
 .GoB{
@@ -595,6 +598,7 @@ button:hover {
 }
 .frontCard{
   font-family: 'Shantell Sans', sans-serif;
+  color: #242424;
 
 }
 .infoBo{
