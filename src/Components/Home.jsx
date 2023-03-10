@@ -42,6 +42,7 @@ export function Home(props) {
   const proyect=useSelector((state=>state.counter.cam))
   const buzon=useSelector((state=>state.counter.buzon))
   const loading=useSelector((state=>state.counter.loading))
+  const mobile=useSelector((state=>state.counter.mobile))
   
   useFrame((state) => {
     // if(rot){
@@ -53,6 +54,7 @@ export function Home(props) {
   useEffect(()=>{
     
     //console.log("los actions son",actions)
+    /* if(mobile===false){
     actions.AbuelaAction.play()
     actions.M_CalcaAction.play()
     actions.CreidaAction.play()
@@ -60,7 +62,10 @@ export function Home(props) {
     actions.girtoAntenaAction.play()
     actions.M_Action2.play()
     actions.CafeAction2.play()
-    actions.Hazul_Action2.play()
+    actions.Hazul_Action2.play()}
+    else{
+      console.log("mobile active")
+    } */
   })
 
   const [video]= useState(()=>{
